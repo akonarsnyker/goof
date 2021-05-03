@@ -15,7 +15,7 @@
   "scripts": {},
   "env": {
     "MONGOLAB_URI": {
-      "required": true
+      "required": false
     }
   },
   "formation": {
