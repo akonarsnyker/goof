@@ -23,12 +23,10 @@
       "quantity": 1
     }
   },
-  "addons": [
-    "mongolab"
-  ],
   "buildpacks": [
     {
-      "url": "heroku/nodejs"
+      "url": "heroku/nodejs",
+      "url": "stomita/heroku-buildpack-mongodb"
     }
   ]
 }
